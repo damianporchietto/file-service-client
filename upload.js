@@ -24,7 +24,7 @@ const main = async () => {
   }
 
   // Abs o relative path to file
-  const filepath = './testUpload.js'
+  const filepath = './upload.js'
 
   const form = new FormData()
   form.append('file', fs.createReadStream(filepath))
