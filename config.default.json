@@ -1,0 +1,14 @@
+{
+    "credentials": {
+        "client_id":"",
+        "secret":""
+    },
+    "api": {
+      "basepath": "",
+      "paths": {
+        "upload": "/files",
+        "download": "/files/download",
+        "metadata": "/files/metadata"
+      }
+    }
+}
