@@ -31,6 +31,9 @@ const main = async () => {
   form.append('credentials', JSON.stringify(credentials))
   form.append('metadata', JSON.stringify(metadata))
 
+  // OPTIONAL: custom local key, get one from aes2gen tool
+  // form.append('enc_key', 'GENERATED_KEY')
+
   const headers = {
       ...form.getHeaders(), // Include headers for multipart form data
   }

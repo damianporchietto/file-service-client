@@ -14,6 +14,8 @@ const main = async () => {
       method: 'GET',
       url: downloadUrl,
       data: {
+        //OPTIONAL: locally generated aes256 key
+        //enc_key: 'GENERATED KEY',
         key: '/key/to/save/file',
         credentials: config.credentials
       }
